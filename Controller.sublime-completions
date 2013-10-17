@@ -1,0 +1,9 @@
+{
+    "scope": "text.html.basic source.php.embedded.block.html comment.block.documentation.phpdoc.php",
+
+    "completions":
+    [
+        { "trigger": "@Route", "contents": "@Route(\"$0\", name=\"$1\")" },
+        { "trigger": "@Template", "contents": "@Template($0)" }
+    ]
+}
